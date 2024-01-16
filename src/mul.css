@@ -1,0 +1,75 @@
+
+
+  .multi-select-dropdown {
+    position: relative;
+    width: 40rem; /* Set the width as per your requirement */
+    
+  }
+  
+  .selected-items {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+  }
+  
+  .selected-item {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    padding: 4px;
+    border: none;
+    border-radius: 80px;
+    background-color: #f0f0f0;
+  }
+  
+  .item-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 999999px;
+  }
+  
+  .item-name {
+    margin-right: 5px;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+  }
+  
+  .dropdown-icon {
+    margin-left: auto;
+  }
+  
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected {
+    background-color: #a7e0a3; /* Customize the selected item background color */
+  }
+  
+  /* Add more styles as needed */
+  
+  
